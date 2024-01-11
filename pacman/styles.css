@@ -1,0 +1,28 @@
+.pacman {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px 25px 0 0;
+  background-color: yellow;
+  position: relative;
+}
+
+.mouth {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 25px solid yellow;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid yellow;
+  position: absolute;
+  top: -1px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 5px);
+}
